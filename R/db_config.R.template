@@ -1,0 +1,9 @@
+# copy db_config.R.template to db_config.R, change credentials 
+
+db_config <- list(
+  dbname = "database_name", 
+  host = "localhost", 
+  port = 1234, 
+  user = "username", 
+  password = "password"
+)
